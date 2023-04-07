@@ -8,12 +8,12 @@ class Routes {
   static final menuOptions = <MenuOption>[
     MenuOption(
         route: '/', icon: Icons.ac_unit, name: 'Home', screen: HomePage()),
-    /* MenuOption(
+    MenuOption(
         route: 'alert',
         icon: Icons.add_alert,
         name: 'Alertas',
         screen: AlertPage()),
-    MenuOption(
+    /* MenuOption(
         route: 'avatar',
         icon: Icons.accessibility,
         name: 'Avatars',
@@ -41,7 +41,7 @@ class Routes {
 
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
     return MaterialPageRoute(
-      builder: (context) => HomePage() /* AlertPage() */,
+      builder: (context) => AlertPage(),
     );
   }
 }
