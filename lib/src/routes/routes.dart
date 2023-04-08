@@ -28,16 +28,21 @@ class Routes {
         icon: Icons.donut_large,
         name: 'Animated Container',
         screen: AnimatedContainerPage()),
-        MenuOption(
+    MenuOption(
         route: 'inputs',
         icon: Icons.input,
         name: 'Inputs',
         screen: InputPage()),
-        MenuOption(
+    MenuOption(
         route: 'slider',
         icon: Icons.tune,
         name: 'Slider - Checks',
         screen: SliderPage()),
+    MenuOption(
+        route: 'list',
+        icon: Icons.list,
+        name: 'Listas - Scroll',
+        screen: ListPage()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
