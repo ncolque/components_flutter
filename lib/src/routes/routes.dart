@@ -28,6 +28,11 @@ class Routes {
         icon: Icons.donut_large,
         name: 'Animated Container',
         screen: AnimatedContainerPage()),
+        MenuOption(
+        route: 'inputs',
+        icon: Icons.input,
+        name: 'Inputs',
+        screen: InputPage()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
