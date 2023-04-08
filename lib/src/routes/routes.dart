@@ -23,6 +23,11 @@ class Routes {
         icon: Icons.folder_open,
         name: 'Cards',
         screen: CardPage()),
+    MenuOption(
+        route: 'animatedContainer',
+        icon: Icons.donut_large,
+        name: 'Animated Container',
+        screen: AnimatedContainerPage()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
