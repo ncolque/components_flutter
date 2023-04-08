@@ -18,6 +18,11 @@ class Routes {
         icon: Icons.accessibility,
         name: 'Avatars',
         screen: AvatarPage()),
+    MenuOption(
+        route: 'card',
+        icon: Icons.folder_open,
+        name: 'Cards',
+        screen: CardPage()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
