@@ -13,11 +13,11 @@ class Routes {
         icon: Icons.add_alert,
         name: 'Alertas',
         screen: AlertPage()),
-    /* MenuOption(
+    MenuOption(
         route: 'avatar',
         icon: Icons.accessibility,
         name: 'Avatars',
-        screen: AvatarPage()), */
+        screen: AvatarPage()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
