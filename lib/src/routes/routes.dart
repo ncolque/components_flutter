@@ -33,6 +33,11 @@ class Routes {
         icon: Icons.input,
         name: 'Inputs',
         screen: InputPage()),
+        MenuOption(
+        route: 'slider',
+        icon: Icons.tune,
+        name: 'Slider - Checks',
+        screen: SliderPage()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
